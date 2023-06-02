@@ -1,0 +1,30 @@
+﻿@model BlogManagementLibrary.Model.Admin
+
+<div class="bg-secondary bg-opacity-10 py-2">
+    <div class=" container">
+        <h1>Admin</h1>
+    </div>
+</div>
+
+<div class="container py-5">
+    <form method="post">
+        <div class="mb-3">
+            <lable class="form-lable">Admin Name</lable>
+            <input type="text" class="form-control" id="adminName" name="adminName" asp-for="AdminName" />
+        </div>
+
+        <div class="mb-3">
+            <lable class="form-lable">Admin Password</lable>
+            <input type="text" class="form-control" id="adminPassword" name="adminPassword" asp-for="AdminPassword" />
+        </div>
+        
+        <div class="mb-3">
+            <lable class="form-lable">Role</lable>
+            <input type="text" class="form-control" id="role" name="role" asp-for="Role" />
+        </div>
+
+        <div class=" mb-3">
+            <button type="Submit" class="btn btn-dark">Submit</button>
+        </div> 
+    </form>
+</div>

@@ -1,0 +1,51 @@
+﻿@model BlogManagementLibrary.Model.Blog
+
+<div class="card shadow border-0 mt-4">
+    <div class="card-header bg-secondary bg-gradient ml-0 py-3">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">Edit Blog</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <form method="post" class="row">
+            <div class="border p-3">
+                <div class="mb-3">
+                    <lable class="form-lable">Blog Name</lable>
+                    <input type="text" class="form-control" id="blogName" name="blogName" asp-for="BlogName" />
+                </div>
+
+                <div class="mb-3">
+                    <lable class="form-lable">Blog Content</lable>
+                    <input type="text" class="form-control" id="blogContent" name="blogContent" asp-for="BlogContent" />
+                </div>
+                <div class="mb-3">
+                    <lable class="form-lable">Blog Category</lable>
+                    <input type="text" class="form-control" id="blogCategory" name="blogCategory" asp-for="BlogCategory" />
+                </div>
+                <div class="mb-3">
+                    <lable class="form-lable">Number Of Subscriptions</lable>
+                    <input type="text" class="form-control" id="noOfSubscriptions" name="noOfSubscriptions" asp-for="NoOfSubscriptions" />
+                </div>
+
+                <div class="row pt-2">
+                    <div class="col-6 col-md-3">
+                        <button type="submit" asp-controller="Blog" asp-action="Index" class="btn btn-primary form-control">Save</button>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <a asp-controller="Blog" asp-action="Index" class="btn btn-outline-primary border  form-control">
+                            Cancel
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}

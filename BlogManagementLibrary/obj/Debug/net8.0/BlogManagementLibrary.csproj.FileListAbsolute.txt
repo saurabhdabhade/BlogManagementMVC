@@ -1,0 +1,15 @@
+C:\Users\sailesh nichat\source\repos\BlogManagementMVC\BlogManagementLibrary\obj\Debug\net8.0\BlogManagementLibrary.csproj.AssemblyReference.cache
+C:\Users\sailesh nichat\source\repos\BlogManagementMVC\BlogManagementLibrary\obj\Debug\net8.0\BlogManagementLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sailesh nichat\source\repos\BlogManagementMVC\BlogManagementLibrary\obj\Debug\net8.0\BlogManagementLibrary.AssemblyInfoInputs.cache
+C:\Users\sailesh nichat\source\repos\BlogManagementMVC\BlogManagementLibrary\obj\Debug\net8.0\BlogManagementLibrary.AssemblyInfo.cs
+C:\Users\sailesh nichat\source\repos\BlogManagementMVC\BlogManagementLibrary\obj\Debug\net8.0\BlogManagementLibrary.csproj.CoreCompileInputs.cache
+C:\Users\sailesh nichat\source\repos\BlogManagementMVC\BlogManagementLibrary\bin\Debug\net8.0\BlogManagementLibrary.deps.json
+C:\Users\sailesh nichat\source\repos\BlogManagementMVC\BlogManagementLibrary\bin\Debug\net8.0\BlogManagementLibrary.runtimeconfig.json
+C:\Users\sailesh nichat\source\repos\BlogManagementMVC\BlogManagementLibrary\bin\Debug\net8.0\BlogManagementLibrary.dll
+C:\Users\sailesh nichat\source\repos\BlogManagementMVC\BlogManagementLibrary\bin\Debug\net8.0\BlogManagementLibrary.pdb
+C:\Users\sailesh nichat\source\repos\BlogManagementMVC\BlogManagementLibrary\obj\Debug\net8.0\BlogManagementLibrary.dll
+C:\Users\sailesh nichat\source\repos\BlogManagementMVC\BlogManagementLibrary\obj\Debug\net8.0\refint\BlogManagementLibrary.dll
+C:\Users\sailesh nichat\source\repos\BlogManagementMVC\BlogManagementLibrary\obj\Debug\net8.0\BlogManagementLibrary.pdb
+C:\Users\sailesh nichat\source\repos\BlogManagementMVC\BlogManagementLibrary\obj\Debug\net8.0\BlogManagementLibrary.genruntimeconfig.cache
+C:\Users\sailesh nichat\source\repos\BlogManagementMVC\BlogManagementLibrary\obj\Debug\net8.0\ref\BlogManagementLibrary.dll
+C:\Users\sailesh nichat\source\repos\BlogManagementMVC\BlogManagementLibrary\obj\Debug\net8.0\BlogManagementLibrary.sourcelink.json

@@ -1,0 +1,56 @@
+﻿@model IEnumerable<BlogManagementLibrary.Model.Blog>
+<br />
+<div class="container p-4 border">
+    <div class="row pb-2">
+        <div class="col">
+            <h1 class="text-primary">Blog List</h1>
+        </div>
+        <div class="col text-end pt-1">
+            <a asp-area="" asp-controller="Blog" asp-action="Blog" class="btn btn-outline-primary"><i class="bi bi-file-plus"></i> Create New Blog</a>
+        </div>
+    </div>
+
+     <table id="tblData" class="table table-bordered table-striped" style="width:100%">
+        <thead>
+            <tr>
+                <th>
+                    Blog Name
+                </th>
+                <th>
+                    Blog Content
+                </th>
+                <th>
+                    Blog Category
+                </th>
+                <th>
+                    Number Of subscription
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.OrderBy(u => u.BlogId))
+            {
+                <tr>
+                    <td>@item.BlogId.ToString()</td>
+                    <td>@item.BlogName</td>
+                    <td>@item.BlogContent</td>
+                    <td>@item.BlogCategory.ToString()</td>
+                    <td>@item.NoOfSubscriptions</td>
+                    <td>
+                        <a asp-controller="Blog" asp-action="CreateBlog" asp-route-EventId="@item.BlogId" class="btn btn-success"><i class="bi bi-pencil-square"></i>Create</a>
+                        <a asp-controller="Blog" asp-action="Delete" asp-route-EventId="@item.BlogId" class="btn btn-danger"><i class="bi bi-trash-fill"></i>Delete</a>
+                        <a asp-controller="Blog" asp-action="Subscribe" asp-route-EventId="@item.BlogId" class="btn btn-danger"><i class="bi bi-pencil-square"></i>Subscribe</a>
+                        <a asp-controller="Blog" asp-action="UnSubscribe" asp-route-EventId="@item.BlogId" class="btn btn-danger"><i class="bi bi-pencil-square"></i>UnSubscribe</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table> 
+
+</div>
+@section Scripts{
+    <script src="~/js/event.js"></script>
+}  
+
+     
